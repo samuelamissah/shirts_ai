@@ -23,7 +23,7 @@ const Home = () => {
 <motion.div className='home-content' {...headContainerAnimation}>
     <motion.div {...headTextAnimation}> 
     <h1 className='head-text'>
-        Let's  <br className='xl:block' /> Fucking' Go
+    Let's <br className='xl:block hidden' /> Fucking' <br className='xl:block hidden' />GO
 
     </h1>
 
@@ -33,14 +33,14 @@ const Home = () => {
     className='flex flex-col gap-5'    
     >
         <p className='max-w-md font-normal text-gray-700 text-base'>
-        Design Your Own Exclusive <i className='text-red-600'>SHIRT</i> with my brand-new 3-D Customization tool. <strong>Unleash Your Potential</strong>
+        Design Your Own Exclusive <i className='text-red-600'>SHIRT</i> with my brand-new 3-D Customization tool. <strong>Unleash Your Potential</strong>{" "} and define your own brand.
         </p>
 
 <CustomButton
 type="filled"
 title="Just Do It"
 handleClick={() => state.intro = false}
-customStyles="w-fit px-4 py-3 font-bold text-sm"
+customStyles="w-fit px-4 py-2.5 font-bold text-sm rounded-wd"
  />
 
 
